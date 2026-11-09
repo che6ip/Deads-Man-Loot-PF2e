@@ -1,0 +1,41 @@
+{
+  "id": "deads-man-loot-pf2e",
+  "title": "Dead's Man Loot — Pathfinder 2e",
+  "description": "Адаптер Pathfinder 2e для базового модуля Dead's Man Loot: сообщает базе, какие предметы материальны, сколько их, их редкость и уровень, а также когда существо считается мёртвым.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "YourName"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.369"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "deads-man-loot",
+        "type": "module",
+        "active": true,
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "deads-man-loot-pf2e.mjs"
+  ],
+  "readme": "README.md",
+  "license": "MIT"
+}
